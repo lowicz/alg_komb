@@ -1,1 +1,1 @@
-# alg_komb
+# Algorytmy kombinatoryczne
