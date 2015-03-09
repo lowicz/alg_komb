@@ -1,6 +1,5 @@
-print "Podaj n i k: "
-n = int(raw_input())
-k = int(raw_input())
+n = int(raw_input("Podaj n: "))
+k = int(raw_input("Podaj k: "))
 
 x = [i+1 for i in xrange(k)]
 print x
