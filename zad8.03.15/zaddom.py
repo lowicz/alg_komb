@@ -1,6 +1,6 @@
 """ Bijekcja w moim przykladzie, przyporzadkowuje
 kazdemu podzbiorowi ciag binarny, w ktorym 1 oznacza obecnosc
-elementu zbioru o tym samym indeksie""""
+elementu zbioru o tym samym indeksie"""
 
 n = int(raw_input("Podaj n: "))
 
