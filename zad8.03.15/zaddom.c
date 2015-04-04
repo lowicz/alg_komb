@@ -1,3 +1,13 @@
+/*
+
+Do kolejnych podzbiorow przyporządkowałem reprezentacje
+binarna liczb od 0 do 2^n - 1. Taką, że
+0 w danym ciągu binarnym oznacza brak elementu o wartości indeksu
+a 1 oznacza zawarcie tego elementu w podzbiorze
+
+*/
+
+
 #include "stdio.h"
 
 void get_subset(int s, int n)
