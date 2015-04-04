@@ -4,6 +4,7 @@ elementu zbioru o tym samym indeksie"""
 
 n = int(raw_input("Podaj n: "))
 
+
 def next(s, n):
     x = []
     mask = 1
