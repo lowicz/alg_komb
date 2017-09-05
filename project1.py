@@ -9,6 +9,7 @@ SCHEDULE = [[('Zamek', 2), ('Polonez', 7), ('Wojska Polskiego', 12), ('Słowiań
 def calculateRoadTime(stopA, stopB, actualTime, schedule):
 	bufor = [y for x in schedule for y in x if stopA in y and y[1] >= actualTime]
 	for i in schedule:
+		if len(bufor) == 0: workDict = dict(i); return workDict[stopB]
 		if min(bufor) in i: workDict = dict(i); return workDict[stopB]
 
 try:
